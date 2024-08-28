@@ -15,6 +15,5 @@ struct ListNode* reverseList(struct ListNode* head) {
         previous = current;
         current = next;
     }
-    
     return previous;
 }
